@@ -29,14 +29,17 @@ body{
     height: 100%;
 }
 
-.hero .text{
-    margin-left: 50px;
+.hero .colorbanner{
     width: 50%;
-    height: 50%;
+    height: 450px;
 }
 
-.hero .text h1{
-   color: #8a1616;
+.bodytext{
+    height: 20;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    margin-left: 4em;
+    margin-top: 8em;
 }
 
 .hero img{
