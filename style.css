@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+.header .nav{
+    background-color: #00412692;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav .logo{
+    width: 50px;
+}
+.nav .links{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+ 
+.nav .links a{
+    color: white;
+    text-decoration: none;
+}
+.hero{
+    position: relative;
+    padding-left: 20px;
+    background-color: rgb(6, 134, 134);
+    padding: 10px;
+    height: 100%;
+}
+
+.hero .text{
+    margin-left: 50px;
+    width: 50%;
+    height: 50%;
+}
+
+.hero .text h1{
+   color: #8a1616;
+}
+
+.hero img{
+    width: 50%px;
+    position: absolute;
+    right: 5px; top: 0;
+    margin: 5%;
+}
